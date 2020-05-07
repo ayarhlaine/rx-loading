@@ -1,0 +1,55 @@
+.App {
+    .Bar__Title__Container{
+        text-align: center;
+    }
+    .Progress__Border{
+        border: 1px solid gray;
+        .Progress__Bar {
+            min-height: 2rem;
+            background: red;
+            color: white;
+            padding-top: 0.5rem;
+            text-align: center;
+        }
+        .Progress__Bar__Data__0 {
+            width: 0%;
+        }
+        .Progress__Bar__Data__20 {
+            width: 20%;
+        }
+        .Progress__Bar__Data__40 {
+            width: 40%;
+        }
+        .Progress__Bar__Data__60 {
+            width: 60%;
+            background: yellow;
+        }
+        .Progress__Bar__Data__80 {
+            width: 80%;
+            background: yellow;
+        }
+        .Progress__Bar__Data__100 {
+            width: 100%;
+            background: green;
+        }
+    }
+    .Percentage{
+        text-align: center;
+        .Percentage__Text{
+            font-weight: bold;
+        }
+    }
+    .Progress__Text__Container{
+        text-align: center;
+    }
+    .Load__Button__Container{
+        text-align: center;
+    }
+    .Hack__Button{
+        padding: 0.5rem 1rem;
+    }
+    .SocialLink__Container {
+        margin-top: 3rem;
+        text-align: center;
+    }
+}
