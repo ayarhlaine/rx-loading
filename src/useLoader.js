@@ -2,7 +2,6 @@ import {useEffect,useState} from 'react';
 
 import { of, fromEvent, from } from 'rxjs';
 
-import { fromFetch } from 'rxjs/fetch';
 import {
   delay,
   switchMapTo,
@@ -11,7 +10,6 @@ import {
   scan,
   withLatestFrom,
   share,
-  switchMap, catchError
 } from 'rxjs/operators';
 
 const requestOne = of('Hacking Google ...').pipe(delay(500));

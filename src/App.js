@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react';
+import React from 'react';
 import { useLoader } from './useLoader';
 import './App.scss';
 function App() {
@@ -12,7 +12,7 @@ function App() {
       </div>
       <div className="Progress__Border">
         <div className={`Progress__Bar ${className}`}>
-           { progressPercent == 100 && 'Successfully Hacked!'}
+           { progressPercent === 100 && 'Successfully Hacked!'}
         </div>
       </div>
       <div className="Percentage">
