@@ -1,5 +1,6 @@
 # rx-loading
 Progress Bar of multiple api requests (React, RXJS, Hook). This project was bootstrapped with Create React App.
+This project is clone version (using react js) of this [Example](https://www.learnrxjs.io/learn-rxjs/recipes/progressbar).
 
 [![Build Status](https://travis-ci.com/devayarhlaine/rx-loading.svg?branch=master)](https://travis-ci.com/devayarhlaine/rx-loading)
 
