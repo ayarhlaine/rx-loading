@@ -1,0 +1,9 @@
+version: '3'
+services:
+  agent:
+    image: "rx-loading:staging"
+    ports:
+      - "80:3000"
+    environment:
+      NODE_ENV: production
+    restart: unless-stopped
