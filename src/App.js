@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <div className={'Bar__Title__Container'}>
-        <h2 className={'Bar__Title'}>RX JS Progress Bar</h2>
+        <h2 className={'Bar__Title'}>RX JS Progress Bar Updated</h2>
       </div>
       <div className="Progress__Border">
         <div className={`Progress__Bar ${className}`}>
